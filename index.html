@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Christina</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+<script>
+  window.addEventListener('load', function() {
+    const header = document.querySelector('.s-header');
+    const extraOffset = 100; // adjust this value to slide more
+    const headerHeight = header.offsetHeight;
+    window.scrollTo({
+      top: headerHeight + extraOffset,
+      behavior: 'smooth'
+    });
+  });
+</script>
+
+    <style>
+        
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        header.s-header {
+            margin-bottom: 0;
+        }
+
+        #intro.s-intro {
+            margin-top: 0px;
+        }
+
+        .s-about__content-main p {
+            margin-bottom: 1.5em;
+            line-height: 1.6;
+        }
+
+        .s-about__content-main .rtl-text {
+            direction: rtl;
+            font-family: Tahoma, Arial, sans-serif;
+        }
+
+        .s-expertise__content-main {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .s-expertise__content-btn {
+            text-align: center;
+        }
+
+        .s-footer {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .s-footer__bottom {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .section-header.grid-section-split__header {
+            text-align: left;
+        }
+
+        /* Left-align expertise title */
+        #expertise .section-header.grid-section-split__header {
+            text-align: left;
+        }
+
+        @media (max-width: 768px) {
+            .s-footer__bottom .column {
+                text-align: center;
+                margin-bottom: 1em;
+            }
+        }
+    </style>
+</head>
+
+<body id="top">
+
+    <!-- preloader -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+        </div>
+    </div>
+
+    <!-- page wrap -->
+    <div id="page" class="s-pagewrap ss-home">
+
+        <!-- header -->
+        <header class="s-header">
+            <div class="row s-header__inner width-sixteen-col">
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="index.html">
+                            <img src="images/logo.png" alt="Homepage">
+                        </a>
+                    </div>
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div>
+                <nav class="s-header__nav">
+                    <ul class="s-header__menu-links">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Artworks</a></li>
+                        <li><a href="blog.html">Journal</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+        </header>
+
+        <!-- main content -->
+        <section id="content" class="s-content">
+
+            <!-- intro -->
+            <section id="intro" class="s-intro">
+                <div class="row s-intro__content width-sixteen-col">
+                    <div class="column lg-12 s-intro__content-inner grid-block">
+                        <div class="s-intro__content-text">
+                            <div class="s-intro__content-pretitle text-pretitle">Hello, I'm Christina</div>
+                            <h1 class="s-intro__content-title">
+                                I create artworks <br>
+                                exploring humans' <br>
+                                relationship with <br>
+                                nature and memory.
+                            </h1>
+                        </div>
+                        <div class="s-intro__content-media">
+                            <div class="s-intro__content-media-inner">
+                                <img src="images/intro-bg.jpg" srcset="images/intro-bg.jpg 1x, images/intro-bg.jpg 2x"
+                                    alt="">
+                                <div class="lines"><span></span></div>
+                            </div>
+                        </div>
+                        <div class="s-intro__scroll-down">
+                            <a href="#about" class="smoothscroll">
+                                <div class="scroll-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36"
+                                        fill="none" stroke="#97b34a" stroke-width="1" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <polyline points="7 13 12 18 17 13"></polyline>
+                                        <line x1="12" y1="18" x2="12" y2="6"></line>
+                                    </svg>
+                                </div>
+                                <span>Scroll for more</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- about -->
+            <section id="about" class="s-about target-section">
+                <div class="row s-about__content width-sixteen-col">
+                    <div class="column grid-block grid-section-split">
+                        <img src="images/geometric_shape.svg" alt="" class="s-about__content-imgbg">
+
+                        <div class="section-header grid-section-split__header">
+                            <div class="text-pretitle">About</div>
+                            <h2 class="text-display-title">Discover the world through my lens</h2>
+                        </div>
+
+                        <div class="s-about__content-main grid-section-split__primary">
+                            <div style="text-align: justify; font-family: Arial, sans-serif;">
+                                <p>I am Christina Qahoush, a contemporary visual artist born in Jerusalem in 2000,
+                                    currently living in Ramallah. I explore the relationship between humans and nature,
+                                    focusing on Palestinian animals and plants that are disappearing due to the borders
+                                    and separation from their natural habitats. Through my work, I aim to preserve these
+                                    memories by using Cyanotype and collage techniques to embody the connection between
+                                    nature, memory, and personal perspective.</p>
+                            </div>
+                            <div class="rtl-text" style="text-align: justify;">
+                                <p>أنا كريستينا قاحوش، فنانة فلسطينية تعمل في مجال الفنون البصرية المعاصرة. أشارك في
+                                    معارض جماعية في القدس ورام الله وبيت لحم وغزة وإسبانيا، وأسعى من خلال أعمالي لتسليط
+                                    الضوء على العلاقة بين الإنسان والطبيعة، والحفاظ على الكائنات النباتية والحيوانية
+                                    الفلسطينية التي تختفي تدريجيًا بسبب الحدود والفصل عن بيئتها الطبيعية، باستخدام
+                                    تقنيات السيانوتايب والكولاج لتجسيد الذاكرة والطبيعة من منظوري الشخصي.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- expertise -->
+            <section id="expertise" class="s-expertise">
+                <div class="row s-expertise__content width-sixteen-col">
+                    <div class="column xl-12 grid-block grid-section-split">
+                        <div class="section-header grid-section-split__header">
+                            <div class="text-pretitle">Expertise</div>
+                            <h2 class="text-display-title">My key areas of expertise</h2>
+                            <p class="lead" style="text-align: justify;">I specialize in exploring the relationship
+                                between humans and nature through contemporary visual art, using experimental techniques
+                                to preserve memories of vanishing Palestinian flora and fauna.</p>
+                        </div>
+
+                        <div class="s-expertise__content-main grid-section-split__primary">
+                            <div class="grid-list-items list-items show-ctr">
+
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title">Cyanotype & Collage</h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p style="text-align: justify;">Expert in the Cyanotype printing process,
+                                            combined with collage techniques, to create textured, memory-driven artworks
+                                            that reflect nature and cultural heritage.</p>
+                                    </div>
+                                </div>
+
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title">Contemporary Visual Arts</h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p style="text-align: justify;">Proficient in creating contemporary art pieces
+                                            that explore social and environmental themes, emphasizing the intersection
+                                            of human experience and natural ecosystems.</p>
+                                    </div>
+                                </div>
+
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title">Art Exhibitions & Curation</h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p style="text-align: justify;">Experienced in participating in and organizing
+                                            group exhibitions locally and internationally, presenting artworks that
+                                            engage viewers with cultural and ecological narratives.</p>
+                                    </div>
+                                </div>
+
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title">Research & Documentation</h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p style="text-align: justify;">Conducts detailed research on Palestinian flora
+                                            and fauna, documenting endangered species through artistic interpretation to
+                                            preserve cultural and environmental memory.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="s-expertise__content-btn grid-section-split__bottom">
+                            <a href="services.html" class="btn btn--stroke">View All Artworks</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- footer -->
+            <footer class="s-footer">
+                <div class="row s-footer__bottom">
+                    <div class="column xl-6 lg-12">
+                        <ul class="s-footer__social social-list">
+                            <li><a href="https://www.instagram.com/christinaqahoush/" target="_blank"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path
+                                            d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z">
+                                        </path>
+                                        <circle cx="16.806" cy="7.207" r="1.078"></circle>
+                                        <path
+                                            d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z">
+                                        </path>
+                                    </svg><span class="u-screen-reader-text">Instagram</span></a></li>
+                            <li><a href="mailto:cqahoush@gmail.com" target="_blank"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path
+                                            d="M20 4H4c-1.104 0-2 .896-2 2v12c0 1.104.896 2 2 2h16c1.104 0 2-.896 2-2V6c0-1.104-.896-2-2-2zm0 2l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z" />
+                                    </svg><span class="u-screen-reader-text">Email</span></a></li>
+                            <li><a href="tel:+0595499850" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24" viewBox="0 0 24 24">
+                                        <path
+                                            d="M6.62 10.79a15.053 15.053 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1v3.5c0 .55-.45 1-1 1C10.07 21 3 13.93 3 5.5c0-.55.45-1 1-1H7.5c.55 0 1 .45 1 1 0 1.24.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                                    </svg><span class="u-screen-reader-text">Phone</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="column xl-6 lg-12">
+                        <p class="ss-copyright">
+                            <span>© Copyright Christina 2025</span>
+                            <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+                        </p>
+                    </div>
+
+                    <div class="ss-go-top">
+                        <a class="smoothscroll" title="Back to Top" href="#top">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36"
+                                fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <polyline points="17 11 12 6 7 11"></polyline>
+                                <line x1="12" y1="18" x2="12" y2="6"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+
+    </div>
+
+    <!-- JS -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
